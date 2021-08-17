@@ -1,0 +1,18 @@
+#USUARIO DEVE ACERTAR O NUMERO ALEATORIO PARA GANHAR O JOGO
+
+from random import randint 
+
+computador = randint(1, 10) 
+
+print('''VAMOS JOGAR? VOU PENSAR EM UM NÚMERO DE 1 A 10. EM QUE NUMERO EU PENSEI? ''') 
+
+palpite = int(input('\nDigite o número que pensei: '))
+
+while computador != palpite: 
+  if computador > palpite: 
+    palpite = int(input('''Pensei em um número MAIOR. Tente de novo: ''')) 
+
+  else: 
+      palpite = int(input('''Pensei em um número MENOR. Tente de novo: ''')) 
+
+print('\nParabéns!!! Você acertou :)')
