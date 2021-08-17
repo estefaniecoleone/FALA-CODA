@@ -2,7 +2,7 @@
 
 Participo como colaboradora na iniciativa FALA + CODA.
 
-Temos como objetivo ensinar lógica de programação para alunos da Fatec Zona Sul que está localizada dentro da comunidade para  e jovens da comunidade que fica no entorno da faculdade e os incentive a se tornar programadores, mas não se restringindo a esse público. 
+Temos como objetivo ensinar lógica de programação para alunos da Fatec Zona Sul e jovens da comunidade que fica no entorno da faculdade e assim os incentivar a se tornar programadores, mas não se restringindo a esse público somente. 
 
 Localizada dentro da comunidade, estrategicamente para promover ensino para esse público, a instituição Fatec Zona Sul muitas vezes acaba não os alcançando por falta de divulgação e informação. 
 
