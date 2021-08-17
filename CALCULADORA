@@ -1,0 +1,33 @@
+#Calculadora simples com operações de soma, subtração, multiplicação e divisão
+
+print('=-' * 15)
+print('\t\t calculadora'.upper())
+print('=-' * 15)
+
+num1 = float(input('Digite o primeiro valor: '))
+num2 = float(input('Digite o segundo valor : '))
+
+operacao = str(input('''\nSelecione a operação    : 
+[+] SOMA
+[-] SUBTRAÇÃO
+[x] MULTIPLICAÇÃO
+[/] DIVISÃO
+'''))
+15
+if operacao =='+':
+ resultado = num1 + num2
+
+elif operacao == '-':
+ resultado = num1 - num2
+
+elif operacao =='x':
+ resultado = num1 * num2
+
+elif operacao =='/':
+ resultado = num1 / num2
+
+else:
+ print('Operação inválida')
+
+print('\nRESULTADO')
+print(f'{num1} {operacao} {num2} = {resultado}')
