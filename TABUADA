@@ -1,0 +1,5 @@
+#TABUADA
+
+num = int(input('Digite o número da tabuada que deseja: '))
+for contador in range(1,11):
+  print(f' {num} * {contador} = {num*contador}')
