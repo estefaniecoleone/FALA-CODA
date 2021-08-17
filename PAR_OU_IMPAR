@@ -1,0 +1,28 @@
+#JOGO DO PAR OU IMPAR CONTRA O COMPUTADOR
+
+from random import randint 
+print('=-' * 15) 
+print('\tJOGO DO PAR OU ÍMPAR') 
+print('=-' * 15) 
+
+jogada = str(input('Par ou Impar: ')).upper().strip()[0] 
+
+numero = int(input('Escolha um numero entre 1 e 10: ')) 
+
+print('''\nO computador está escolhendo...
+...
+...
+...
+''') 
+computador = randint(0, 10) 
+print('Você escolheu {} e computador {}'.format(numero, computador)) 
+soma = numero + computador 
+if soma % 2 == 0: 
+  if jogada in 'Pp': 
+    print(f'SOMA = {soma} \nVOCÊ ESCOLHEU PAR E VENCEU!!! :)') 
+  else: 
+    print(f'SOMA = {soma}  \nVOCÊ ESCOLHEU PAR E PERDEU :(') 
+else: 
+  if jogada in 'Ii': 
+    print(f'SOMA = {soma} \nVOCÊ ESCOLHEU IMPAR E VENCEU!!! :)') 
+  else: print(f'SOMA = {soma} \nVOCÊ ESCOLHEU IMPAR E PERDEU :(')
